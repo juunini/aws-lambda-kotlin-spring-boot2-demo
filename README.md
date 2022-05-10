@@ -64,3 +64,8 @@ SpringBoot2DemoApi - URL for application            https://xxxxxxxxxx.execute-a
 
 $ curl https://xxxxxxxxxx.execute-api.ap-northeast-2.amazonaws.com/demo
 ```
+
+## Route53 도메인 연동
+
+- API Gateway > 사용자 지정 도메인 이름 > 생성 > 완료 > API 추가
+- Route53 > 호스팅 영역 > {도메인} > 레코드 생성 > 별칭 > API Gateway API에 대한 별칭 > 리전 선택 > 엔드포인트 선택
